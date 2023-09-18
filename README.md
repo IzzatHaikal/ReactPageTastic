@@ -1,4 +1,6 @@
 # ReactPageTastic
+[![NPM](https://nodei.co/npm/reactpagetastic.png)](https://nodei.co/npm/reactpagetastic/)
+
 A simple pagination component for React.
 
 ## Installation
