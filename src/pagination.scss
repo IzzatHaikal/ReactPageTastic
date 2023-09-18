@@ -1,0 +1,64 @@
+// $pagetastic-text: #000000;
+// $pagetastic-text-selected: #ffffff;
+// $pagetastic-background: #ffffff;
+// $pagetastic-background-selected: #000000;
+
+// pagination
+.pagination-container {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  user-select: none;
+}
+.pagination-item {
+  padding: 0 12px;
+  height: 32px;
+  text-align: center;
+  margin: 2px; /* Adjust margin here */
+  color: $pagetastic-text;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  letter-spacing: 0.01071em;
+  border-radius: 16px;
+  font-size: 13px;
+  min-width: 32px;
+  justify-content: center;
+  cursor: pointer; /* Apply pointer cursor to all items */
+
+  .arrow {
+    width: 12px;
+    height: 12px;
+
+    &.disabled {
+      opacity: 0.3;
+    }
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  &.selected {
+    background-color: $pagetastic-background-selected;
+    color: white;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    cursor: default;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  &.dots {
+    background-color: transparent;
+    cursor: default;
+  }
+}
