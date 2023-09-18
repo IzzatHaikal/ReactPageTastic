@@ -6,6 +6,10 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IzzatHaikal/ReactPageTastic.git"
+  },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build": "rollup -c",
