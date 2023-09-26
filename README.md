@@ -4,7 +4,14 @@
 A simple pagination component for React.
 
 ## Installation
-```npm i reactpagetastic```
+```
+npm i reactpagetastic
+```
+
+## Example
+Default styling
+
+![Default Styling](https://firebasestorage.googleapis.com/v0/b/pagetastic-88eb7.appspot.com/o/Example.png?alt=media)
 
 ## Usage
 
