@@ -18,7 +18,7 @@ Default styling
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactPageTastic from 'reactpagetastic';
+import { ReactPageTastic } from 'reactpagetastic';
 import "reactpagetastic/dist/pagetastic.css"; // Import the CSS
 
 const [currentPage, setCurrentPage] = React.useState(1);
